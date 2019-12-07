@@ -6,22 +6,24 @@ window.shop_additional_info = [
     shopName: 'PiO的場町店',
     unitTypes: [
       {
-        unitType: 'BOX上',
-        width: 900,
-        depth: 900,
-        height: 1000,
-        initFee: 3580,
-        discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
-      },
-      {
         unitType: 'BOX下',
         width: 900,
         depth: 900,
         height: 1000,
         initFee: 3349,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 900,
+        depth: 900,
+        height: 1000,
+        initFee: 3580,
+        discountPrice: '→2カ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -30,7 +32,8 @@ window.shop_additional_info = [
         height: 2100,
         initFee: 5775,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B-1',
@@ -39,7 +42,8 @@ window.shop_additional_info = [
         height: 2100,
         initFee: 8893,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'B-2',
@@ -48,7 +52,8 @@ window.shop_additional_info = [
         height: 2100,
         initFee: 8893,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'C',
@@ -56,8 +61,9 @@ window.shop_additional_info = [
         depth: 1200,
         height: 2100,
         initFee: 10395,
-        discountPrice: '',
-        note: ','
+        discountPrice: '→2カ月無料(半年以上利用)',
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'D',
@@ -66,7 +72,8 @@ window.shop_additional_info = [
         height: 2100,
         initFee: 12705,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'E',
@@ -75,7 +82,8 @@ window.shop_additional_info = [
         height: 2100,
         initFee: 13860,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       }
     ]
   },
@@ -84,22 +92,24 @@ window.shop_additional_info = [
     shopName: 'PiO宇品海岸通店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 820,
-        depth: 950,
-        height: 1040,
-        initFee: 2425,
-        discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 820,
         depth: 950,
         height: 880,
         initFee: 2194,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 820,
+        depth: 950,
+        height: 1040,
+        initFee: 2425,
+        discountPrice: '→2カ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -108,7 +118,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 7507,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B-1',
@@ -117,16 +128,18 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 8085,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
-        unitType: 'B-1-2-R',
+        unitType: 'B-1-2連結',
         width: 1900,
         depth: 1790,
         height: 2300,
         initFee: 15015,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'B-2',
@@ -135,7 +148,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 8085,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'C',
@@ -144,7 +158,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 12705,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'D',
@@ -153,7 +168,8 @@ window.shop_additional_info = [
         height: 1900,
         initFee: 4042,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       }
     ]
   },
@@ -162,22 +178,24 @@ window.shop_additional_info = [
     shopName: 'PiO田町・芝浦店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 950,
-        depth: 950,
-        height: 1040,
-        initFee: 4504,
-        discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 950,
         depth: 950,
         height: 880,
         initFee: 3927,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 950,
+        depth: 950,
+        height: 1040,
+        initFee: 4504,
+        discountPrice: '→1カ月無料(1年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -186,7 +204,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 6814,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -195,7 +214,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 10857,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -204,7 +224,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 11434,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -213,7 +234,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 19519,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -222,7 +244,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 20674,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -231,7 +254,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 21829,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -240,7 +264,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 22407,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -249,7 +274,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 22869,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -258,7 +284,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 29337,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'J',
@@ -267,7 +294,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 29337,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'K',
@@ -276,7 +304,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 29914,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '13',
+        note: ''
       },
       {
         unitType: 'L',
@@ -285,7 +314,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 34303,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '14',
+        note: ''
       },
       {
         unitType: 'M',
@@ -294,7 +324,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 41464,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '15',
+        note: ''
       },
       {
         unitType: 'N',
@@ -303,7 +334,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 45738,
         discountPrice: '→1カ月無料(1年以上利用)',
-        note: ','
+        sort: '16',
+        note: ''
       }
     ]
   },
@@ -312,22 +344,24 @@ window.shop_additional_info = [
     shopName: 'PiO四谷三丁目店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 950,
-        depth: 950,
-        height: 1040,
-        initFee: 6814,
-        discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 950,
         depth: 950,
         height: 880,
         initFee: 6237,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 950,
+        depth: 950,
+        height: 1040,
+        initFee: 6814,
+        discountPrice: '→最大2ヵ月無料(1年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -336,7 +370,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 11434,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -345,7 +380,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 17787,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -354,7 +390,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 18364,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -363,7 +400,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 18364,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -372,7 +410,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 22984,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -381,7 +420,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 26449,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -390,7 +430,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 36267,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -399,7 +440,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 36729,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -408,7 +450,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 55093,
         discountPrice: '→最大2ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       }
     ]
   },
@@ -417,22 +460,24 @@ window.shop_additional_info = [
     shopName: 'PiO西麻布店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 950,
-        depth: 950,
-        height: 1040,
-        initFee: 7392,
-        discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 950,
         depth: 950,
         height: 880,
         initFee: 6814,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 950,
+        depth: 950,
+        height: 1040,
+        initFee: 7392,
+        discountPrice: '→最大3ヵ月無料(1年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -441,7 +486,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 11434,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -450,7 +496,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 18364,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -459,7 +506,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 18364,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -468,7 +516,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 19519,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -477,7 +526,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 21252,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -486,7 +536,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 21252,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -495,7 +546,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 26449,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -504,7 +556,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 26449,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -513,7 +566,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 28759,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'J',
@@ -522,7 +576,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 32224,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'K',
@@ -531,7 +586,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 34534,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '13',
+        note: ''
       },
       {
         unitType: 'L',
@@ -540,7 +596,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 36844,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '14',
+        note: ''
       },
       {
         unitType: 'M',
@@ -549,7 +606,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 36844,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '15',
+        note: ''
       },
       {
         unitType: 'N',
@@ -558,7 +616,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 37999,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '16',
+        note: ''
       },
       {
         unitType: 'N-A',
@@ -567,7 +626,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 17209,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '17',
+        note: ''
       },
       {
         unitType: 'N-B',
@@ -576,7 +636,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 24139,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '18',
+        note: ''
       },
       {
         unitType: 'N-D',
@@ -585,7 +646,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 36844,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '19',
+        note: ''
       },
       {
         unitType: 'N-G',
@@ -594,7 +656,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 46084,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '20',
+        note: ''
       },
       {
         unitType: 'N-H',
@@ -603,7 +666,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 51859,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '21',
+        note: ''
       },
       {
         unitType: 'N-K',
@@ -612,7 +676,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 56479,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '22',
+        note: ''
       },
       {
         unitType: 'N-L',
@@ -621,7 +686,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 76114,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '23',
+        note: ''
       },
       {
         unitType: 'N-N',
@@ -630,7 +696,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 84199,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '24',
+        note: ''
       },
       {
         unitType: 'O',
@@ -639,7 +706,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 39154,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '25',
+        note: ''
       },
       {
         unitType: 'P',
@@ -648,7 +716,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 46084,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '26',
+        note: ''
       },
       {
         unitType: 'Q',
@@ -657,7 +726,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 46084,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '27',
+        note: ''
       },
       {
         unitType: 'R',
@@ -666,7 +736,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 53014,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '28',
+        note: ''
       },
       {
         unitType: 'S',
@@ -675,7 +746,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 57634,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '29',
+        note: ''
       },
       {
         unitType: 'T',
@@ -684,7 +756,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 59944,
         discountPrice: '→最大3ヵ月無料(1年以上利用)',
-        note: ','
+        sort: '30',
+        note: ''
       }
     ]
   },
@@ -693,22 +766,24 @@ window.shop_additional_info = [
     shopName: 'PiO東新宿店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 820,
+        unitType: 'BOX下',
+        width: 950,
         depth: 950,
-        height: 2300,
-        initFee: 11434,
+        height: 880,
+        initFee: 6237,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
       },
       {
-        unitType: 'BOX-B',
-        width: 820,
+        unitType: 'BOX上',
+        width: 950,
         depth: 950,
-        height: 2300,
-        initFee: 11434,
+        height: 1040,
+        initFee: 6814,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -717,34 +792,38 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 11434,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
         width: 820,
-        depth: 950,
+        depth: 1370,
         height: 2300,
-        initFee: 11434,
+        initFee: 13744,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
-        width: 820,
-        depth: 950,
+        width: 950,
+        depth: 1370,
         height: 2300,
-        initFee: 11434,
+        initFee: 14899,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
-        width: 820,
+        width: 1370,
         depth: 950,
         height: 2300,
-        initFee: 11434,
+        initFee: 14899,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -753,16 +832,18 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 16632,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
-        width: 820,
-        depth: 1370,
+        width: 1530,
+        depth: 950,
         height: 2300,
-        initFee: 13744,
+        initFee: 16632,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -771,34 +852,38 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 17209,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
-        width: 950,
-        depth: 1790,
+        width: 1790,
+        depth: 950,
         height: 2300,
         initFee: 17209,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
-        width: 950,
-        depth: 1790,
+        width: 1790,
+        depth: 1370,
         height: 2300,
-        initFee: 17209,
+        initFee: 26449,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'K',
-        width: 950,
+        width: 1640,
         depth: 1790,
         height: 2300,
-        initFee: 17209,
+        initFee: 29914,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'L',
@@ -807,31 +892,35 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 30492,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '13',
+        note: ''
       }
     ]
   },
+
   {
     shopId: '5ddcbe26d05af30017a777db',
     shopName: 'PiO宇品神田店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 950,
-        depth: 950,
-        height: 1040,
-        initFee: 3927,
-        discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 950,
         depth: 950,
         height: 880,
         initFee: 3349,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 950,
+        depth: 950,
+        height: 1040,
+        initFee: 3927,
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -840,7 +929,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 5659,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -849,7 +939,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 7392,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -858,7 +949,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 7969,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -867,7 +959,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 8547,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -876,7 +969,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 9124,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -885,7 +979,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 9124,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -894,7 +989,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 9702,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -903,7 +999,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 11434,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -912,7 +1009,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 13744,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'J',
@@ -921,7 +1019,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 17787,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'K',
@@ -930,7 +1029,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 18249,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '13',
+        note: ''
       }
     ]
   },
@@ -939,22 +1039,24 @@ window.shop_additional_info = [
     shopName: 'PiO水道橋店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 820,
-        depth: 950,
-        height: 1040,
-        initFee: 7392,
-        discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 820,
         depth: 950,
         height: 880,
         initFee: 6814,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 820,
+        depth: 950,
+        height: 1040,
+        initFee: 7392,
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -963,7 +1065,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 10279,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -972,7 +1075,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 13744,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -981,7 +1085,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 13744,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -990,7 +1095,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 14899,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -999,7 +1105,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 16054,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -1008,7 +1115,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 16054,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -1017,7 +1125,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 17209,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -1026,7 +1135,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 20674,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -1035,7 +1145,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 22984,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'J',
@@ -1044,7 +1155,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 25294,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'K',
@@ -1053,7 +1165,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 27604,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '13',
+        note: ''
       },
       {
         unitType: 'L',
@@ -1062,7 +1175,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 27604,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '14',
+        note: ''
       },
       {
         unitType: 'M',
@@ -1071,7 +1185,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 29914,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '15',
+        note: ''
       },
       {
         unitType: 'M-2',
@@ -1080,7 +1195,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 34419,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '16',
+        note: ''
       },
       {
         unitType: 'N',
@@ -1089,7 +1205,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 39154,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '17',
+        note: ''
       },
       {
         unitType: 'O',
@@ -1098,7 +1215,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 46084,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '18',
+        note: ''
       },
       {
         unitType: 'P',
@@ -1107,7 +1225,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 51859,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '19',
+        note: ''
       }
     ]
   },
@@ -1116,22 +1235,24 @@ window.shop_additional_info = [
     shopName: 'PiO初台店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 820,
-        depth: 950,
-        height: 1040,
-        initFee: 6237,
-        discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 820,
         depth: 950,
         height: 880,
         initFee: 5659,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 820,
+        depth: 950,
+        height: 1040,
+        initFee: 6237,
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -1140,7 +1261,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 9124,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -1149,7 +1271,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 13167,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -1158,7 +1281,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 15477,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -1167,7 +1291,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 16054,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -1176,7 +1301,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 19519,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -1185,7 +1311,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 22984,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -1194,7 +1321,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 28759,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -1203,7 +1331,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 29914,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -1212,7 +1341,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 31069,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'J',
@@ -1221,7 +1351,8 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 34534,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'K',
@@ -1230,31 +1361,35 @@ window.shop_additional_info = [
         height: 2040,
         initFee: 44929,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '13',
+        note: ''
       }
     ]
   },
+
   {
     shopId: '5ddcbe26d05af30017a777e1',
     shopName: 'PiOセンター北店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 820,
-        depth: 950,
-        height: 1190,
-        initFee: 4504,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 820,
         depth: 950,
         height: 1030,
         initFee: 3927,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 820,
+        depth: 950,
+        height: 1190,
+        initFee: 4504,
+        discountPrice: '→最大2ヵ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -1263,7 +1398,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 6814,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -1272,7 +1408,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 8547,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -1281,7 +1418,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 10279,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -1290,7 +1428,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 10279,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -1299,7 +1438,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 13744,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -1308,7 +1448,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 16054,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -1317,7 +1458,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 18942,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -1326,7 +1468,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 20097,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -1335,7 +1478,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 20674,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'J',
@@ -1344,145 +1488,35 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 20674,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       }
     ]
   },
-  {
-    shopId: '5ddcbe26d05af30017a777e1',
-    shopName: 'PiOセンター北店',
-    unitTypes: [
-      {
-        unitType: 'BOX-U',
-        width: 820,
-        depth: 950,
-        height: 1190,
-        initFee: 4504,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
-        width: 820,
-        depth: 950,
-        height: 1030,
-        initFee: 3927,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'A',
-        width: 820,
-        depth: 950,
-        height: 2300,
-        initFee: 6814,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'B',
-        width: 950,
-        depth: 1370,
-        height: 2300,
-        initFee: 8547,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'C',
-        width: 950,
-        depth: 1790,
-        height: 2300,
-        initFee: 10279,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'D',
-        width: 1790,
-        depth: 950,
-        height: 2300,
-        initFee: 10279,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'E',
-        width: 950,
-        depth: 2210,
-        height: 2300,
-        initFee: 13744,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'F',
-        width: 1370,
-        depth: 1790,
-        height: 2300,
-        initFee: 16054,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'G',
-        width: 1370,
-        depth: 2210,
-        height: 2300,
-        initFee: 18942,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'H',
-        width: 1790,
-        depth: 1790,
-        height: 2300,
-        initFee: 20097,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'I',
-        width: 1900,
-        depth: 1790,
-        height: 2300,
-        initFee: 20674,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'J',
-        width: 1530,
-        depth: 2210,
-        height: 2300,
-        initFee: 20674,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      }
-    ]
-  },
+
   {
     shopId: '5ddcbe26d05af30017a777e3',
     shopName: 'PiO横浜日ノ出町店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 820,
-        depth: 950,
-        height: 1040,
-        initFee: 5082,
-        discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 820,
         depth: 950,
         height: 880,
         initFee: 4504,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 820,
+        depth: 950,
+        height: 1040,
+        initFee: 5082,
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -1491,7 +1525,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 6237,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -1500,7 +1535,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 9702,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -1509,7 +1545,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 11434,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -1518,7 +1555,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 11434,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -1527,7 +1565,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 13629,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -1536,7 +1575,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 15477,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -1545,7 +1585,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 16632,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -1554,7 +1595,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 17787,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -1563,7 +1605,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 20097,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'J',
@@ -1572,7 +1615,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 21829,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'K',
@@ -1581,7 +1625,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 25294,
         discountPrice: '→最大3ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '13',
+        note: ''
       }
     ]
   },
@@ -1590,22 +1635,24 @@ window.shop_additional_info = [
     shopName: 'PiO STUDIO 080 仙台店',
     unitTypes: [
       {
-        unitType: 'BOX-U',
-        width: 820,
-        depth: 950,
-        height: 1040,
-        initFee: 2864,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
-      },
-      {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 820,
         depth: 950,
         height: 880,
         initFee: 2286,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
+      },
+      {
+        unitType: 'BOX上',
+        width: 820,
+        depth: 950,
+        height: 1040,
+        initFee: 2864,
+        discountPrice: '→最大2ヵ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -1614,7 +1661,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 4504,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -1623,7 +1671,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 6237,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -1632,7 +1681,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 6814,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -1641,7 +1691,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 7392,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -1650,7 +1701,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 8547,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -1659,7 +1711,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 8547,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'H',
@@ -1668,7 +1721,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 9471,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'I',
@@ -1677,7 +1731,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 9817,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'J',
@@ -1686,7 +1741,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 10626,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'K',
@@ -1695,7 +1751,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 10972,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'L',
@@ -1704,7 +1761,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 11203,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '13',
+        note: ''
       },
       {
         unitType: 'M',
@@ -1713,7 +1771,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 11434,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '14',
+        note: ''
       },
       {
         unitType: 'N',
@@ -1722,7 +1781,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 12012,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '15',
+        note: ''
       },
       {
         unitType: 'O',
@@ -1731,7 +1791,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 13167,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '16',
+        note: ''
       },
       {
         unitType: 'P',
@@ -1740,7 +1801,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 15477,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '17',
+        note: ''
       },
       {
         unitType: 'Q',
@@ -1749,7 +1811,8 @@ window.shop_additional_info = [
         height: 2300,
         initFee: 18133,
         discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        sort: '18',
+        note: ''
       }
     ]
   },
@@ -1758,22 +1821,24 @@ window.shop_additional_info = [
     shopName: 'PiO横浜高島台店',
     unitTypes: [
       {
-        unitType: 'BOX-B',
+        unitType: 'BOX下',
         width: 950,
         depth: 950,
         height: 880,
         initFee: 3927,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '1',
+        note: ''
       },
       {
-        unitType: 'BOX-U',
+        unitType: 'BOX上',
         width: 950,
         depth: 950,
         height: 1040,
         initFee: 4504,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'A',
@@ -1781,8 +1846,9 @@ window.shop_additional_info = [
         depth: 950,
         height: 2300,
         initFee: 6237,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'B',
@@ -1790,8 +1856,9 @@ window.shop_additional_info = [
         depth: 1370,
         height: 2300,
         initFee: 9702,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '4',
+        note: ''
       },
       {
         unitType: 'C',
@@ -1799,8 +1866,9 @@ window.shop_additional_info = [
         depth: 1790,
         height: 2300,
         initFee: 11434,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '5',
+        note: ''
       },
       {
         unitType: 'D',
@@ -1808,8 +1876,9 @@ window.shop_additional_info = [
         depth: 950,
         height: 2300,
         initFee: 11434,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '6',
+        note: ''
       },
       {
         unitType: 'E',
@@ -1817,8 +1886,9 @@ window.shop_additional_info = [
         depth: 1790,
         height: 2300,
         initFee: 17787,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '7',
+        note: ''
       },
       {
         unitType: 'F',
@@ -1826,8 +1896,9 @@ window.shop_additional_info = [
         depth: 1370,
         height: 2300,
         initFee: 17787,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '8',
+        note: ''
       },
       {
         unitType: 'G',
@@ -1835,8 +1906,9 @@ window.shop_additional_info = [
         depth: 1370,
         height: 2300,
         initFee: 18942,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '9',
+        note: ''
       },
       {
         unitType: 'H',
@@ -1844,8 +1916,9 @@ window.shop_additional_info = [
         depth: 1790,
         height: 2300,
         initFee: 20097,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '10',
+        note: ''
       },
       {
         unitType: 'I',
@@ -1853,8 +1926,9 @@ window.shop_additional_info = [
         depth: 1790,
         height: 2300,
         initFee: 21829,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '11',
+        note: ''
       },
       {
         unitType: 'J',
@@ -1862,8 +1936,9 @@ window.shop_additional_info = [
         depth: 1370,
         height: 2300,
         initFee: 21829,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '12',
+        note: ''
       },
       {
         unitType: 'K',
@@ -1871,8 +1946,9 @@ window.shop_additional_info = [
         depth: 1790,
         height: 2300,
         initFee: 22869,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '13',
+        note: ''
       },
       {
         unitType: 'L',
@@ -1880,8 +1956,9 @@ window.shop_additional_info = [
         depth: 1370,
         height: 2300,
         initFee: 26449,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '14',
+        note: ''
       },
       {
         unitType: 'M',
@@ -1889,8 +1966,9 @@ window.shop_additional_info = [
         depth: 1790,
         height: 2300,
         initFee: 28759,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '15',
+        note: ''
       },
       {
         unitType: 'N',
@@ -1898,8 +1976,9 @@ window.shop_additional_info = [
         depth: 1790,
         height: 2300,
         initFee: 34303,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '16',
+        note: ''
       },
       {
         unitType: 'O',
@@ -1907,8 +1986,9 @@ window.shop_additional_info = [
         depth: 2630,
         height: 2300,
         initFee: 39732,
-        discountPrice: '→最大2ヵ月無料(半年以上利用)',
-        note: ','
+        discountPrice: '→最大3ヵ月無料(半年以上利用)',
+        sort: '17',
+        note: ''
       }
     ]
   },
@@ -1923,7 +2003,8 @@ window.shop_additional_info = [
         height: 240,
         initFee: 10164,
         discountPrice: '→初月無料(半年以上利用)',
-        note: ','
+        sort: '1',
+        note: ''
       },
       {
         unitType: 'B',
@@ -1932,7 +2013,8 @@ window.shop_additional_info = [
         height: 240,
         initFee: 12589,
         discountPrice: '→初月無料(半年以上利用)',
-        note: ','
+        sort: '2',
+        note: ''
       },
       {
         unitType: 'C',
@@ -1941,7 +2023,8 @@ window.shop_additional_info = [
         height: 240,
         initFee: 20212,
         discountPrice: '→初月無料(半年以上利用)',
-        note: ','
+        sort: '3',
+        note: ''
       },
       {
         unitType: 'D',
@@ -1950,7 +2033,8 @@ window.shop_additional_info = [
         height: 240,
         initFee: 37306,
         discountPrice: '→初月無料(半年以上利用)',
-        note: ','
+        sort: '4',
+        note: ''
       }
     ]
   }
