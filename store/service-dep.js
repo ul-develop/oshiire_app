@@ -12,8 +12,7 @@ window.shop_additional_info = [
         height: 1000,
         initFee: 3580,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ',',
-		sort: 2
+        note: ','
       },
       {
         unitType: 'BOX下',
@@ -22,8 +21,7 @@ window.shop_additional_info = [
         height: 1000,
         initFee: 3349,
         discountPrice: '→2カ月無料(半年以上利用)',
-        note: ',',
-		sort: 1
+        note: ','
       },
       {
         unitType: 'A',
@@ -1925,8 +1923,7 @@ window.shop_additional_info = [
         height: 240,
         initFee: 10164,
         discountPrice: '→初月無料(半年以上利用)',
-        note: ',',
-        sort: 1
+        note: ','
       },
       {
         unitType: 'B',
@@ -1935,8 +1932,7 @@ window.shop_additional_info = [
         height: 240,
         initFee: 12589,
         discountPrice: '→初月無料(半年以上利用)',
-        note: ',',
-        sort: 2
+        note: ','
       },
       {
         unitType: 'C',
@@ -1945,8 +1941,7 @@ window.shop_additional_info = [
         height: 240,
         initFee: 20212,
         discountPrice: '→初月無料(半年以上利用)',
-        note: ',',
-        sort: 3
+        note: ','
       },
       {
         unitType: 'D',
@@ -1955,8 +1950,7 @@ window.shop_additional_info = [
         height: 240,
         initFee: 37306,
         discountPrice: '→初月無料(半年以上利用)',
-        note: ',',
-        sort: 4
+        note: ','
       }
     ]
   }
