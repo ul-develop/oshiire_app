@@ -2,11 +2,11 @@ window.storeganise_api_url = 'https://trial8-api.storeganise.com';
 window.can_apply_unit_count_greater_or_equal_to = 1;
 window.shop_additional_info = [
 {
-  shopId:'5ddcbe26d05af30017a777cf',
+  shopId:'5bd6dfbefdacf000153b0615',
   shopName: 'PiO的場町店',
   unitTypes: [
   {
-    unitType: 'BOX下',
+    unitType: '0.5畳',
     width: 900,
     depth: 900,
     height: 1000,
@@ -16,7 +16,7 @@ window.shop_additional_info = [
     note: ''
   },
   {
-    unitType: 'BOX上',
+    unitType: '0.7畳',
     width: 900,
     depth: 900,
     height: 1000,
@@ -26,7 +26,7 @@ window.shop_additional_info = [
     note: ''
   },
   {
-    unitType: 'A',
+    unitType: '1畳',
     width: 900,
     depth: 900,
     height: 2100,
@@ -36,7 +36,7 @@ window.shop_additional_info = [
     note: ''
   },
   {
-    unitType: 'B-1',
+    unitType: '1.2畳',
     width: 900,
     depth: 1800,
     height: 2100,
