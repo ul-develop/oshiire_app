@@ -1,10 +1,10 @@
 window.shop_additional_info = [
 {
-  shopId:'5bd6dfbefdacf000153b0615',
+  shopId:'5ddcbe26d05af30017a777cf',
   shopName: 'PiO的場町店',
   unitTypes: [
   {
-    unitType: '0.5畳',
+    unitType: 'BOX下',
     width: 900,
     depth: 900,
     height: 1000,
@@ -14,7 +14,7 @@ window.shop_additional_info = [
     note: ''
   },
   {
-    unitType: '0.7畳',
+    unitType: 'BOX上',
     width: 900,
     depth: 900,
     height: 1000,
@@ -24,7 +24,7 @@ window.shop_additional_info = [
     note: ''
   },
   {
-    unitType: '1畳',
+    unitType: 'A',
     width: 900,
     depth: 900,
     height: 2100,
@@ -34,7 +34,7 @@ window.shop_additional_info = [
     note: ''
   },
   {
-    unitType: '1.2畳',
+    unitType: 'B-1',
     width: 900,
     depth: 1800,
     height: 2100,
@@ -1042,7 +1042,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 880,
     initFee: 6814,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '1',
     note: ''
   },
@@ -1052,7 +1052,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 1040,
     initFee: 7392,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '2',
     note: ''
   },
@@ -1062,7 +1062,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 2300,
     initFee: 10279,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '3',
     note: ''
   },
@@ -1072,7 +1072,7 @@ window.shop_additional_info = [
     depth: 1370,
     height: 2300,
     initFee: 13744,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '4',
     note: ''
   },
@@ -1082,7 +1082,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 2300,
     initFee: 13744,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '5',
     note: ''
   },
@@ -1092,7 +1092,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 2300,
     initFee: 14899,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '6',
     note: ''
   },
@@ -1102,7 +1102,7 @@ window.shop_additional_info = [
     depth: 1790,
     height: 2300,
     initFee: 16054,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '7',
     note: ''
   },
@@ -1112,7 +1112,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 2300,
     initFee: 16054,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '8',
     note: ''
   },
@@ -1122,7 +1122,7 @@ window.shop_additional_info = [
     depth: 1370,
     height: 2300,
     initFee: 17209,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '9',
     note: ''
   },
@@ -1132,7 +1132,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 2300,
     initFee: 20674,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '10',
     note: ''
   },
@@ -1142,7 +1142,7 @@ window.shop_additional_info = [
     depth: 1790,
     height: 2300,
     initFee: 22984,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '11',
     note: ''
   },
@@ -1152,7 +1152,7 @@ window.shop_additional_info = [
     depth: 2210,
     height: 2300,
     initFee: 25294,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '12',
     note: ''
   },
@@ -1162,7 +1162,7 @@ window.shop_additional_info = [
     depth: 2210,
     height: 2300,
     initFee: 27604,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '13',
     note: ''
   },
@@ -1172,7 +1172,7 @@ window.shop_additional_info = [
     depth: 1790,
     height: 2300,
     initFee: 27604,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '14',
     note: ''
   },
@@ -1182,7 +1182,7 @@ window.shop_additional_info = [
     depth: 2630,
     height: 2300,
     initFee: 29914,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '15',
     note: ''
   },
@@ -1192,7 +1192,7 @@ window.shop_additional_info = [
     depth: 1370,
     height: 2300,
     initFee: 34419,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '16',
     note: ''
   },
@@ -1202,7 +1202,7 @@ window.shop_additional_info = [
     depth: 1530,
     height: 2300,
     initFee: 39154,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '17',
     note: ''
   },
@@ -1212,7 +1212,7 @@ window.shop_additional_info = [
     depth: 1790,
     height: 2300,
     initFee: 46084,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '18',
     note: ''
   },
@@ -1222,7 +1222,7 @@ window.shop_additional_info = [
     depth: 2630,
     height: 2300,
     initFee: 51859,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '19',
     note: ''
   }
@@ -1238,7 +1238,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 880,
     initFee: 5659,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '1',
     note: ''
   },
@@ -1248,7 +1248,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 1040,
     initFee: 6237,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '2',
     note: ''
   },
@@ -1258,7 +1258,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 2040,
     initFee: 9124,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '3',
     note: ''
   },
@@ -1268,7 +1268,7 @@ window.shop_additional_info = [
     depth: 1370,
     height: 2040,
     initFee: 13167,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '4',
     note: ''
   },
@@ -1278,7 +1278,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 2040,
     initFee: 15477,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '5',
     note: ''
   },
@@ -1288,7 +1288,7 @@ window.shop_additional_info = [
     depth: 1790,
     height: 2040,
     initFee: 16054,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '6',
     note: ''
   },
@@ -1298,7 +1298,7 @@ window.shop_additional_info = [
     depth: 950,
     height: 2040,
     initFee: 19519,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '7',
     note: ''
   },
@@ -1308,7 +1308,7 @@ window.shop_additional_info = [
     depth: 1370,
     height: 2040,
     initFee: 22984,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '8',
     note: ''
   },
@@ -1318,7 +1318,7 @@ window.shop_additional_info = [
     depth: 2210,
     height: 2040,
     initFee: 28759,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '9',
     note: ''
   },
@@ -1328,7 +1328,7 @@ window.shop_additional_info = [
     depth: 1790,
     height: 2040,
     initFee: 29914,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '10',
     note: ''
   },
@@ -1338,7 +1338,7 @@ window.shop_additional_info = [
     depth: 1790,
     height: 2040,
     initFee: 31069,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '11',
     note: ''
   },
@@ -1348,7 +1348,7 @@ window.shop_additional_info = [
     depth: 2630,
     height: 2040,
     initFee: 34534,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '12',
     note: ''
   },
@@ -1358,7 +1358,7 @@ window.shop_additional_info = [
     depth: 1790,
     height: 2040,
     initFee: 44929,
-    discountPrice: '→最大3ヵ月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月30％OFF(半年以上利用)',
     sort: '13',
     note: ''
   }
@@ -2000,7 +2000,7 @@ window.shop_additional_info = [
     depth: 220,
     height: 240,
     initFee: 10164,
-    discountPrice: '→初月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月無料(半年以上利用)',
     sort: '1',
     note: ''
   },
@@ -2010,7 +2010,7 @@ window.shop_additional_info = [
     depth: 220,
     height: 240,
     initFee: 12589,
-    discountPrice: '→初月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月無料(半年以上利用)',
     sort: '2',
     note: ''
   },
@@ -2020,7 +2020,7 @@ window.shop_additional_info = [
     depth: 220,
     height: 240,
     initFee: 20212,
-    discountPrice: '→初月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月無料(半年以上利用)',
     sort: '3',
     note: ''
   },
@@ -2030,7 +2030,7 @@ window.shop_additional_info = [
     depth: 540,
     height: 240,
     initFee: 37306,
-    discountPrice: '→初月無料(半年以上利用)',
+    discountPrice: '→最大3ヵ月無料(半年以上利用)',
     sort: '4',
     note: ''
   }
