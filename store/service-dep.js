@@ -1,7 +1,7 @@
 window.shop_additional_info = [
 {
-  shopId:'5bd6dfbefdacf000153b0615',
-  shopName: 'PiO的場町店',
+  shopId:'60644b49e07202000490ea15',
+  shopName: 'Central',
   unitTypes: [
   {
     unitType: '0.5畳',
